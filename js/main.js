@@ -34,7 +34,7 @@ window.onload = function() {
         platforms.enableBody = true;
         
         // Create the ground.
-        var ground = platforms.create(0,game.world.height - 64, 'ground');
+        var ground = platforms.create(0,0, 'ground');
     }
 
     function update() {
