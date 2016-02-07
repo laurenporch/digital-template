@@ -35,6 +35,11 @@ window.onload = function() {
         
         // Create the ground.
         var ground = platforms.create(0,0, 'ground');
+        
+        ground.scale.setTo(2,2);
+        ground.body.immovable = true;
+        
+        var ledge = platforms.create(400,400,'ground');
     }
 
     function update() {
